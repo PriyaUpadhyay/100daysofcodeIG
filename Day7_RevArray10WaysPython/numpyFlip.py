@@ -8,3 +8,13 @@ print(" Original : ",arr)
 rev = np.flip(arr)
 print(" Reversed : ",rev)
 
+# reverse array in python
+# different ways
+
+# 4. using np.flip()
+import numpy as np
+arr = np.array([10,20,30,40,50])
+print(" Original : ",arr)
+rev = np.flipud(arr)
+print(" Reversed : ",rev)
+
