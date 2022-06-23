@@ -5,3 +5,11 @@ languages.includes('c#') // true
 
 // search from a desired index
 languages.includes('java',3) // false
+
+
+// includes() vs indexOf() with NaN
+const arr = [NaN]
+arr.includes(NaN) // true
+
+arr.indexOf(NaN) // -1
+
